@@ -1,11 +1,7 @@
 package com.cxy.advanced.datastructure.lru;
 
 /**
- * Copyright (c) 2021, 北京卡拉卡尔科技股份有限公司
- * All rights reserved.
- *
- * @author xinyi.chen@karakal.com.cn
- * @version 5.8.8
+ * @author xinyi.chen
  * @date 2022/6/30 0030
  * @description 简单LRU链表
  * @since JDK1.8

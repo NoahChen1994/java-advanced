@@ -4,10 +4,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 
 /**
- * Copyright (c) 2021, 北京卡拉卡尔科技股份有限公司
- * All rights reserved.
- *
- * @author xinyi.chen@karakal.com.cn
+ * @author xinyi.chen
  * @date 2022/08/08
  * @description 两数之和
  * @since JDK1.8
