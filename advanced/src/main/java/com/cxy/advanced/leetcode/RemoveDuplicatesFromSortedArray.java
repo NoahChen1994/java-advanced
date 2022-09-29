@@ -1,7 +1,5 @@
 package com.cxy.advanced.leetcode;
 
-import java.util.*;
-
 /**
  * @author xinyi.chen
  * @date 2022/9/28 0028
@@ -23,18 +21,18 @@ public class RemoveDuplicatesFromSortedArray {
      * @return
      */
     private static int solution1(int[] nums){
-        if (nums.length==0){
-            return 0;
-        }
-        int slow = 1;
-        int fast = 1;
-        while (fast<nums.length){
-            if (nums[fast-1]!=nums[fast]){
-                nums[slow] = nums[fast];
-                slow++;
-            }
-            fast++;
-        }
-        return slow;
+       if (nums.length==0){
+           return 0;
+       }
+       int slow = 1;
+       int fast = 1;
+       while(fast<nums.length){
+           if (nums[fast-1]!=nums[fast]){
+               nums[slow] = nums[fast];
+               slow++;
+           }
+           fast++;
+       }
+       return slow;
     }
 }
